@@ -1,7 +1,7 @@
 class ProposalViewerController < ApplicationController
 
   def show
-    render :text => File.open('public/proposal-template/index.html').read
+    render :text =>  Proposal.find(params[:id]).generate
   end
 
 end
