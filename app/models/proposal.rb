@@ -34,6 +34,7 @@ class Proposal < ActiveRecord::Base
     end
 
     def generate_proposal_section(section_data, section_template)
+      section_template = section_template.dup
       section_template.gsub!(/\{section_header\}/, section_data.name)
       section_template.gsub!(/\{section_content\}/, section_data.description)
 
