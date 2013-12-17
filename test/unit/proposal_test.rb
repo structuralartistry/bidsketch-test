@@ -1,8 +1,10 @@
 require 'test_helper'
 
 class ProposalTest < ActiveSupport::TestCase
-  # Replace this with your real tests.
-  test "the truth" do
-    assert true
+
+  test 'it merges the model data with the template' do
+
+
   end
+
 end

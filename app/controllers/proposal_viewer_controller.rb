@@ -1,7 +1,7 @@
 class ProposalViewerController < ApplicationController
-  
+
   def show
-    render :text => "Hello!"
+    render :text => File.open('public/proposal-template/index.html').read
   end
-  
+
 end
