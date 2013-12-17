@@ -1,6 +1,9 @@
 # Be sure to restart your server when you modify this file
 
 # Specifies gem version of Rails to use when vendor/rails is not present
+
+# TODO: I believe the ending patch of rails 2 was something like .37 or .39... which I think
+# should be upgraded to for security reasons (although you probably have reasons)
 RAILS_GEM_VERSION = '2.3.12' unless defined? RAILS_GEM_VERSION
 
 # Bootstrap the Rails environment, frameworks, and default configuration
